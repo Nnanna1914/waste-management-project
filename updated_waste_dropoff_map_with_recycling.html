@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0569c21d24d8f74f8503131670efc50c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0569c21d24d8f74f8503131670efc50c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0569c21d24d8f74f8503131670efc50c = L.map(
+                "map_0569c21d24d8f74f8503131670efc50c",
+                {
+                    center: [9.082, 8.6753],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ef128c53ff5a0c9a5150b4bce1526db9 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_ef128c53ff5a0c9a5150b4bce1526db9.addTo(map_0569c21d24d8f74f8503131670efc50c);
+        
+    
+            var marker_8bbb95dc35e4ca695086ebb9cd3e0717 = L.marker(
+                [6.5244, 3.3792],
+                {}
+            ).addTo(map_0569c21d24d8f74f8503131670efc50c);
+        
+    
+        var popup_6e0a03a3e7a46627e642b9d95fbbc65d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_62afec3d15169977e2dc9e6da42e2e0a = $(`<div id="html_62afec3d15169977e2dc9e6da42e2e0a" style="width: 100.0%; height: 100.0%;">Recycling Center A</div>`)[0];
+                popup_6e0a03a3e7a46627e642b9d95fbbc65d.setContent(html_62afec3d15169977e2dc9e6da42e2e0a);
+            
+        
+
+        marker_8bbb95dc35e4ca695086ebb9cd3e0717.bindPopup(popup_6e0a03a3e7a46627e642b9d95fbbc65d)
+        ;
+
+        
+    
+    
+            var marker_0957c502930006798e29c2c423339e64 = L.marker(
+                [9.0765, 7.3986],
+                {}
+            ).addTo(map_0569c21d24d8f74f8503131670efc50c);
+        
+    
+        var popup_2566910c38a2021d5db4f3b75ec0b56c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2dad42a2265ab9f275b719686c3603c6 = $(`<div id="html_2dad42a2265ab9f275b719686c3603c6" style="width: 100.0%; height: 100.0%;">Recycling Center B</div>`)[0];
+                popup_2566910c38a2021d5db4f3b75ec0b56c.setContent(html_2dad42a2265ab9f275b719686c3603c6);
+            
+        
+
+        marker_0957c502930006798e29c2c423339e64.bindPopup(popup_2566910c38a2021d5db4f3b75ec0b56c)
+        ;
+
+        
+    
+    
+            var marker_2c8b60aea00d1f55b5ff3ad2ab0a3799 = L.marker(
+                [12.0022, 8.5919],
+                {}
+            ).addTo(map_0569c21d24d8f74f8503131670efc50c);
+        
+    
+        var popup_0a013c8ea8d59be8497ecf7ffab6a198 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d8607b7dea525555013695cbeaf58382 = $(`<div id="html_d8607b7dea525555013695cbeaf58382" style="width: 100.0%; height: 100.0%;">Recycling Center C</div>`)[0];
+                popup_0a013c8ea8d59be8497ecf7ffab6a198.setContent(html_d8607b7dea525555013695cbeaf58382);
+            
+        
+
+        marker_2c8b60aea00d1f55b5ff3ad2ab0a3799.bindPopup(popup_0a013c8ea8d59be8497ecf7ffab6a198)
+        ;
+
+        
+    
+</script>
+</html>
